@@ -280,14 +280,18 @@ section { padding: 6rem 2rem; }
   font-size: 0.82rem; font-weight: 700; margin-bottom: 1rem;
 }
 .packages-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem; position: relative;
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); /* Memaksa 4 kolom sejajar */
+  gap: 1.2rem; 
+  position: relative;
 }
 .package-card {
   background: #fff; border: 1px solid var(--glass-border);
-  border-radius: var(--radius); padding: 2.5rem 2rem;
+  border-radius: var(--radius); padding: 2rem 1.5rem; /* Padding lebih kecil */
   transition: all 0.3s; position: relative; overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
 }
 .package-card.featured {
   border-color: var(--primary); background: #fff;
@@ -556,6 +560,7 @@ footer {
   .hamburger { display: flex; }
   .about-grid { grid-template-columns: 1fr; gap: 3rem; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  .packages-grid { grid-template-columns: repeat(2, 1fr); } /* 2 Kolom di Tablet */
 }
 @media (max-width: 600px) {
   section { padding: 4rem 1.5rem; }
@@ -565,4 +570,5 @@ footer {
   .footer-grid { grid-template-columns: 1fr; }
   .cta-box { padding: 2.5rem 1.5rem; }
   .package-card.featured { transform: scale(1); }
+  .packages-grid { grid-template-columns: 1fr; } /* 1 Kolom di HP */
 }
