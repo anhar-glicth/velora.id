@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paket Sekolah - Velora Digital Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <a href="index.html" class="nav-logo">
+            <div class="logo-icon">V</div>
+            <span>Velora<em>Digital</em></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="services.html">Layanan</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="school.html" style="color: var(--primary);">Paket Sekolah</a></li>
+            <li><a href="contact.html" class="nav-cta">Mulai Project</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Beranda</a>
+        <a href="services.html">Layanan</a>
+        <a href="about.html">Tentang Kami</a>
+        <a href="school.html">Paket Sekolah</a>
+        <a href="contact.html">Mulai Project</a>
+    </div>
+
+    <!-- PAGE HEADER -->
+    <header class="hero" style="min-height: 50vh; padding-top: 10rem;">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="school-badge-special">⭐ Program Edukasi Digital</div>
+            <h1>Digitalisasi <span class="gradient-text">Sekolah</span> Indonesia</h1>
+            <p>Solusi website edukasi lengkap untuk SD, SMP, SMA, dan Universitas.</p>
+        </div>
+    </header>
+
+    <!-- SCHOOL PACKAGES CONTENT -->
+    <section class="school-package">
+        <div class="container">
+            <!-- PRICING SWITCHER -->
+            <div class="pricing-switcher reveal visible">
+                <button class="switch-btn active" data-period="1">Bulanan</button>
+                <button class="switch-btn" data-period="6">6 Bulan <span class="save-badge">Hemat</span></button>
+                <button class="switch-btn" data-period="12">12 Bulan <span class="save-badge">Terbaik</span></button>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Paket Dasar -->
+                <div class="package-card reveal visible">
+                    <div class="package-icon">🏫</div>
+                    <h3 class="package-name">Web Profil Sekolah</h3>
+                    <p class="package-desc">Media informasi sekolah, profil guru, berita, dan galeri kegiatan siswa.</p>
+                    <div class="package-price">
+                        <span class="price-from" style="color: var(--primary); font-weight: 700;">Biaya Pembuatan: GRATIS</span>
+                        <span class="price price-val" 
+                              data-price-1="447.000" 
+                              data-price-6="2.500.000" 
+                              data-price-12="4.800.000">Rp 447.000</span>
+                        <span class="price-period">/ <span class="period-text">bulan</span></span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check-circle check"></i> Domain & Hosting GRATIS</li>
+                        <li><i class="fas fa-check-circle check"></i> Hosting Unlimited</li>
+                        <li><i class="fas fa-check-circle check"></i> 5 Halaman Utama</li>
+                        <li><i class="fas fa-check-circle check"></i> Panduan Penggunaan</li>
+                    </ul>
+                    <a href="contact.html" class="pkg-btn pkg-btn-outline">Pilih Paket</a>
+                </div>
+                <!-- Paket Unggulan -->
+                <div class="package-card featured reveal visible">
+                    <div class="package-icon">🎓</div>
+                    <h3 class="package-name">Smart School Portal</h3>
+                    <p class="package-desc">Sistem terpadu dengan fitur PPDB Online, Pengumuman, dan Database Alumni.</p>
+                    <div class="package-price">
+                        <span class="price-from" style="color: var(--primary); font-weight: 700;">Biaya Pembuatan: GRATIS</span>
+                        <span class="price price-val" 
+                              data-price-1="547.000" 
+                              data-price-6="3.000.000" 
+                              data-price-12="5.800.000">Rp 547.000</span>
+                        <span class="price-period">/ <span class="period-text">bulan</span></span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check-circle check"></i> Fitur PPDB Online</li>
+                        <li><i class="fas fa-check-circle check"></i> Sistem E-Learning Terintegrasi</li>
+                        <li><i class="fas fa-check-circle check"></i> Domain & Hosting GRATIS</li>
+                        <li><i class="fas fa-check-circle check"></i> Manajemen Artikel & Berita</li>
+                        <li><i class="fas fa-check-circle check"></i> Backup Data Berkala</li>
+                        <li><i class="fas fa-check-circle check"></i> Support Teknis 24/7</li>
+                    </ul>
+                    <a href="contact.html" class="pkg-btn pkg-btn-gold">Ambil Penawaran Gratis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <div class="logo-icon">V</div>
+                        <span>Velora<em>Digital</em></span>
+                    </a>
+                    <p>Mendukung pendidikan Indonesia melalui teknologi.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Velora Digital Agency.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
