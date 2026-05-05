@@ -298,10 +298,11 @@ section { padding: 6rem 2rem; }
   transform: scale(1.02); box-shadow: 0 20px 60px rgba(16,185,129,0.1);
 }
 .package-card.featured::before {
-  content: '🌟 TERPOPULER'; position: absolute; top: 16px; right: -30px;
+  content: '🏆 REKOMENDED UNTUK USAHA BISNIS'; position: absolute; top: 22px; right: -50px;
   background: linear-gradient(135deg, var(--gold), #F97316);
-  color: #fff; padding: 0.3rem 3rem; font-size: 0.72rem; font-weight: 800;
-  transform: rotate(45deg); letter-spacing: 1px;
+  color: #fff; padding: 0.35rem 4rem; font-size: 0.6rem; font-weight: 800;
+  transform: rotate(45deg); letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 .package-card:hover:not(.featured) { transform: translateY(-5px); border-color: rgba(79,70,229,0.4); }
 .package-card.featured:hover { transform: scale(1.04); }
