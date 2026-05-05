@@ -3,9 +3,9 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --primary: #10B981;
-  --primary-dark: #059669;
-  --accent: #34D399;
+  --primary: #22C55E;
+  --primary-dark: #16A34A;
+  --accent: #4ADE80;
   --gold: #F59E0B;
   --dark: #FFFFFF;
   --dark-2: #F8FAFC;
