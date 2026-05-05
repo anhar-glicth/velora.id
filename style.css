@@ -709,7 +709,7 @@ section {
 }
 
 .package-card.featured::before {
-  content: '🏆 REKOMENDASI ';
+  content: '🏆 TERPOPULER ';
   position: absolute;
   top: 15px;
   right: -35px;
